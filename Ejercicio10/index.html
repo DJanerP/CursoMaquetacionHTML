@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Actividad 10 - Marcos y Capas</title>
+</head>
+<frameset rows="200px, *" frameborder="0" border="0" framespacing="0">
+    <!-- Marcos superiores - divididos verticalmente (cols) -->
+    <frameset cols="50%, 50%">
+        <frame src="frame1.html" name="superior_izquierdo" noresize="noresize" scrolling="auto">
+        <frame src="frame2.html" name="superior_derecho" noresize="noresize" scrolling="auto">
+    </frameset>
+    <!-- Marco inferior - con scroll siempre visible -->
+    <frame src="frame3.html" name="inferior" noresize="noresize" scrolling="yes">
+    <noframes>
+        <body>
+            <p>Su navegador no soporta frames. Por favor actualice a una versión más reciente.</p>
+        </body>
+    </noframes>
+</frameset>
+</html>
