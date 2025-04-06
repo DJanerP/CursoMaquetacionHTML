@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página estructurada con capas</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        #contenedor-central {
+            display: flex;
+            flex: 1;
+        }
+        #capa-izquierda, #capa-derecha {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabecera -->
+    <div style="background:#4CAF50; color:white; text-align:center; padding:20px 0;">
+        <h1>Página estructurada con capas</h1>
+    </div>
+    
+    <!-- Contenedor central -->
+    <div id="contenedor-central">
+        <!-- Capa izquierda -->
+        <div id="capa-izquierda" style="width:50%; background:#f1f1f1;">
+            <ul style="list-style:none; padding:0; font-size:18px;">
+                <li style="color:red;">Rojo</li>
+                <li style="color:blue;">Azul</li>
+                <li style="color:green;">Verde</li>
+                <li style="color:orange;">Naranja</li>
+                <li style="color:purple;">Morado</li>
+            </ul>
+        </div>
+        
+        <!-- Capa derecha -->
+        <div id="capa-derecha" style="width:50%; background:#ddd;">
+            <p>Esta es la sección derecha de la página.</p>
+        </div>
+    </div>
+    
+    <!-- Pie de página -->
+    <div style="background:#333; color:white; text-align:center; padding:20px 0;">
+        <p>Pie de página</p>
+    </div>
+
+</body>
+</html>
+    </div>
+
+</body>
+</html>
